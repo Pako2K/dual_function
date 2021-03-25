@@ -6,11 +6,11 @@ Use case: change dynamically the behavior of a function by pointing to another f
 **Usage example:**
 
 ```
-std::function<void(int&)> f1{[](int& i){++i;}}; // Increment
+std::function<void(int&)> f1 { [](int& i){++i;} }; // Increment
 
-_std::function<void(int&)> f2{[](int& i){}};  // Do nothing
+std::function<void(int&)> f2 { [](int& i){} };  // Do nothing
 
-DualFunction<void(int&)> dualFn(f1, f2};
+DualFunction<void(int&)> dualFn(f1, f2);
 
 int var{1}
 dualFn(var); // var=2
