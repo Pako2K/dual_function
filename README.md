@@ -1,7 +1,7 @@
 # DualFunction
-C++ class for a function with double behaviour
+C++ class for a function with dual behaviour.
 
-Use case: change dynamically the behavior of a function by pointing to another function with the same signature (return type and arguments types)
+It allows to change dynamically the behavior of a function by pointing to another function with the same signature (return type and arguments types)
 
 **Usage example:**
 
