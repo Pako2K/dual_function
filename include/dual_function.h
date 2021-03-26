@@ -1,11 +1,11 @@
-#ifndef DUAL_FUNCTION
-#define DUAL_FUNCTION
+#ifndef DUAL_FUNCTION_H
+#define DUAL_FUNCTION_H
 
 #include <functional>
 
 namespace utils
 {
-  template< class>
+  template< class >
   class DualFunction;
 
   template <class RET_TYPE, class... FN_ARGS>
@@ -29,4 +29,4 @@ namespace utils
   };
 }
 
-#endif DUAL_FUNCTION
+#endif DUAL_FUNCTION_H
